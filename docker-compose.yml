@@ -1,0 +1,14 @@
+version: '3'
+services:
+ web: 
+  build: 
+  port:
+   - "9200:9300"
+  db:
+   image:
+   enviroment:
+   Volumes:
+
+
+volumes:
+ db-data:   
